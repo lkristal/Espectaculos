@@ -18,6 +18,7 @@ namespace Espectaculos
         }
         public TipoShow()
         {
+            _IdTipoShow=-1;
         }
 
         public int IdTipoShow { get => _IdTipoShow; set => _IdTipoShow = value; }
